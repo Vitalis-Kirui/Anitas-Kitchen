@@ -9,3 +9,72 @@
     color: white;
     padding-bottom: 40px;
 }
+.Navigation{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: baseline;
+    text-align: center;
+    top: -36px;
+}
+.Nav1{
+    font-size: medium;
+}
+.HappyHour{
+    height: 100px;
+    width: 350px;
+    color: black;
+    background-color: gainsboro;
+    box-sizing: border-box;
+    padding-top: 40px;
+    text-align: center;
+}
+.PartyTime{
+    height: 100px;
+    width: 350px;
+    color: white;
+    background-color: #f15a29;
+    box-sizing: border-box;
+    padding-top: 40px;
+    text-align: center;   
+}
+.Nav2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+} 
+.Breakfast{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    height: 250px;
+    width: 333px;
+    padding-top: 90px;
+    background-image: url(./Foottop/breakfast.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+.Lunch{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    height: 250px;
+    width: 333px;
+    padding-top: 90px;
+    background-image: url(./Foottop/lunch.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    opacity: 0.5;
+}
+.Dinner{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    height: 250px;
+    width: 333px;
+    padding-top: 90px;
+    background-image: url(./Foottop/dinner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
