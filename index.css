@@ -1,0 +1,11 @@
+#Header{
+    text-align: center;
+    font-size: 36px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./Background/landing.jpg");
+}
+#Header p{
+    color: white;
+    padding-bottom: 40px;
+}
