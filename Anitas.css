@@ -152,3 +152,54 @@ body{
   
   
   /* <!-- End of Body Content -- */
+  #TableMenu {
+    background-image: url('./Background/foodsBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    color: white;
+    box-sizing: border;
+    display: flex;
+    height: 100%;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+  }
+  #TableMenu>div ul>li {
+    color: black;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  #TableMenu>div {
+    width: 90%;
+    background-color: white;
+    margin: 5%;
+    height: 90%;
+    margin-bottom: 5%;
+  }
+  #MiniMenu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+  }
+  th{
+    padding: 15px;
+    background-color: rgb(204, 203,206);
+    margin: 25px;
+  }
+  h5{
+    color: #F15A29;
+    font-size: 20px;
+  }
+  #TableHeaders{
+    color: #F15A29;
+    background-color: white;
+    flex-direction: column;
+  }
+  
+    
+  /* <!-- End of table Menu --> */
