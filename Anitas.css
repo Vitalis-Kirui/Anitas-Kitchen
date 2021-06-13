@@ -232,3 +232,39 @@ body{
   
   
   /* End of Customers section. --> */
+
+  footer{
+    background-color: #f15a29;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .Subscriping{
+    background-image: url('./Background/subscribe.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    height: 300px;
+    width: 100%;
+    font-size: x-large;
+  }
+  footer p{
+      font-size: medium;
+      margin: 10px;
+      text-align: center;
+  }
+  
+  #MenuText{
+     font-size: 48px;
+  }
+  
+  footer p img{
+      margin-left: 10px;
+  } 
+  /* <!-- End Of The Footer --> */
